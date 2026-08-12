@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# React Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive calculator built with React, Vite, and Math.js. The application supports both on-screen controls and keyboard input for quick calculations.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Basic arithmetic operations:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+- Decimal calculations
+- Keyboard input support
+- Numeric keypad support
+- Enter key calculation
+- Backspace functionality
+- Clear entry button
+- Error handling for invalid expressions
+- Responsive interface
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Math.js
+- npm
+- Git
+- GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Keyboard Controls
 
-### `npm test`
+| Key | Action |
+| --- | --- |
+| `0–9` | Enter numbers |
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `.` | Decimal |
+| `Enter` | Calculate result |
+| `Backspace` | Delete the last character |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Both the standard Enter key and numeric keypad Enter key are supported.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/graceelliott8374-tech/my-calculator.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Navigate to the Project
 
-### `npm run eject`
+```bash
+cd my-calculator
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Start the Development Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run dev
+```
 
-## Learn More
+Vite will provide a local development URL, typically:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```text
+http://localhost:5173/
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Production Build
 
-### Code Splitting
+To create a production build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+To preview the production build locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run preview
+```
 
-### Making a Progressive Web App
+## Project Background
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This calculator began as a React project created while I was developing my front-end programming skills. I later revisited the application to modernize the project, improve its keyboard functionality, and migrate it from Create React App to Vite.
 
-### Advanced Configuration
+Revisiting the project gave me an opportunity to work with an existing codebase rather than simply rebuilding it from scratch. The updated version preserves the original calculator while improving its development environment and functionality.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Improvements Made
 
-### Deployment
+- Migrated the project from Create React App to Vite
+- Updated project dependencies
+- Resolved dependency security vulnerabilities
+- Added and improved keyboard controls
+- Added support for numeric keypad Enter
+- Removed obsolete Create React App files and configuration
+- Verified successful development and production builds
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Future Improvements
 
-### `npm run build` fails to minify
+Potential future improvements include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Additional mathematical operations
+- Calculation history
+- Improved accessibility
+- Light and dark themes
+- Bundle-size optimization
+
+## Author
+
+**Grace Elliott**
+
+Software Developer | Psychology Student | Systems Thinker
+
+
