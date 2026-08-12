@@ -2,6 +2,10 @@
 
 A responsive calculator built with React, Vite, and Math.js. The application supports both on-screen controls and keyboard input for quick calculations.
 
+## Live Demo
+
+[Try the React Calculator](https://graceelliott8374-tech.github.io/my-calculator/)
+
 ## Features
 
 - Basic arithmetic operations:
